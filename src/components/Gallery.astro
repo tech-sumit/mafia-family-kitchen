@@ -1,0 +1,65 @@
+---
+import siteData from '../../content/site.json';
+
+// Generate placeholder images for gallery
+const galleryImages = [
+  {
+    src: "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?w=600&h=400&fit=crop&crop=center&auto=format&q=80",
+    alt: "Panoramic Pune city view from 10th floor rooftop terrace at sunset"
+  },
+  {
+    src: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=600&h=400&fit=crop&crop=center&auto=format&q=80",
+    alt: "Dark mafia-themed interior with dim lighting and cinematic décor"
+  },
+  {
+    src: "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600&h=400&fit=crop&crop=center&auto=format&q=80",
+    alt: "Signature cocktails artfully presented with city lights backdrop"
+  },
+  {
+    src: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=600&h=400&fit=crop&crop=center&auto=format&q=80",
+    alt: "Authentic Italian pasta dish beautifully plated with fresh herbs"
+  },
+  {
+    src: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop&crop=center&auto=format&q=80",
+    alt: "Rooftop dining area with panoramic city skyline at night"
+  },
+  {
+    src: "https://images.unsplash.com/photo-1572116469696-31de0f17cc34?w=600&h=400&fit=crop&crop=center&auto=format&q=80",
+    alt: "Elegant bar setup with premium spirits and mood lighting"
+  },
+  {
+    src: "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=600&h=400&fit=crop&crop=center&auto=format&q=80",
+    alt: "Grilled steak with seasonal vegetables and wine pairing"
+  },
+  {
+    src: "https://images.unsplash.com/photo-1481349518771-20055b2a7b24?w=600&h=400&fit=crop&crop=center&auto=format&q=80",
+    alt: "Craft cocktails with dramatic garnishes and atmospheric lighting"
+  }
+];
+---
+
+<section id="gallery" class="section-padding bg-black">
+  <div class="container-wide">
+    <div class="text-center mb-16 animate-fade-in">
+      <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">
+        Gallery
+      </h2>
+      <p class="text-gray-300 text-xl max-w-3xl mx-auto">
+        Step into our world of exceptional dining and breathtaking views
+      </p>
+    </div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {galleryImages.map((image, index) => (
+        <div class="group overflow-hidden rounded-lg animate-slide-up" style={`animation-delay: ${index * 0.1}s`}>
+          <img 
+            src={image.src}
+            alt={image.alt}
+            class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
+            loading="lazy"
+          />
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

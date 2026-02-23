@@ -1,0 +1,410 @@
+{
+  "business_name": "The Mafia Family Kitchen & Bar",
+  "headline": "Experience Pune's Most Exclusive Rooftop Dining",
+  "headline_alternates": [
+    "Dine with the City at Your Feet",
+    "Where Culinary Excellence Meets Panoramic Views"
+  ],
+  "phone": "",
+  "email": "reservations@mafiafamilykitchen.com",
+  "address": "Vedriti 10th Floor, Pune Nagar Rd, near D'Mello Petrol Pump, opp. Tata Guardroom BRT Stop, Sai Nagari, Mathura Nagar, Wadgaon Sheri, Pune, Maharashtra 411014",
+  "google_maps_url": "https://www.google.com/maps/place/The+Mafia+Family+Kitchen+%26+Bar/",
+  "primary_color": "#B91C1C",
+  "about": {
+    "title": "The Family Behind the Experience",
+    "body": "Perched on the 10th floor of Vedriti building, The Mafia Family Kitchen & Bar offers Pune's most captivating rooftop dining experience. Our mafia-themed restaurant combines dark, cinematic décor with panoramic city views, creating an atmosphere that's both edgy and elegant. We serve a carefully curated menu featuring Italian classics, Continental favorites, and Indian specialties, complemented by signature cocktails crafted by our expert mixologists. Whether you're planning an intimate date night, celebrating with friends, or hosting a special occasion, our unique ambiance and exceptional cuisine make every meal memorable."
+  },
+  "services": [
+    {
+      "title": "Rooftop Dining",
+      "description": "Enjoy panoramic Pune city views from our 10th-floor terrace while savoring exceptional cuisine",
+      "icon": "🏙️"
+    },
+    {
+      "title": "Signature Cocktails",
+      "description": "Expert mixologists craft unique cocktails and mocktails in our fully-stocked bar",
+      "icon": "🍸"
+    },
+    {
+      "title": "Multi-Cuisine Menu",
+      "description": "Authentic Italian, Continental, and Indian dishes prepared by our skilled chefs",
+      "icon": "🍽️"
+    },
+    {
+      "title": "Private Events",
+      "description": "Perfect venue for celebrations, corporate events, and special occasions",
+      "icon": "🎉"
+    },
+    {
+      "title": "Date Night Dining",
+      "description": "Romantic ambiance with dim lighting and city views for unforgettable evenings",
+      "icon": "💕"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Do I need a reservation?",
+      "answer": "Yes, we highly recommend making reservations, especially for weekends and special occasions. You can book through our website or call us directly."
+    },
+    {
+      "question": "Is there parking available?",
+      "answer": "Yes, parking is available at the Vedriti building. We're also conveniently located near public transport with the BRT stop opposite our building."
+    },
+    {
+      "question": "What is your dress code?",
+      "answer": "We maintain a smart casual dress code. While we don't require formal attire, we recommend avoiding shorts, flip-flops, and overly casual wear."
+    },
+    {
+      "question": "Do you serve alcohol?",
+      "answer": "Yes, we have a full bar with signature cocktails, craft beers, wines, and premium spirits. We also offer mocktails for non-alcohol preferences."
+    },
+    {
+      "question": "What cuisines do you offer?",
+      "answer": "Our menu features Italian classics, Continental favorites, and Indian specialties, all prepared with fresh ingredients and authentic flavors."
+    },
+    {
+      "question": "Can I host a private party?",
+      "answer": "Absolutely! Our rooftop space is perfect for private celebrations, corporate events, and group parties. Contact us to discuss customized packages."
+    },
+    {
+      "question": "Is the rooftop covered?",
+      "answer": "Yes, our rooftop dining area has both covered and open sections, allowing you to enjoy the views regardless of weather conditions."
+    },
+    {
+      "question": "What are your weekend hours?",
+      "answer": "We're open until 1:00 AM on Fridays and Saturdays, and until midnight on Sundays, perfect for late-night dining and drinks."
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Priya Sharma",
+      "text": "The ambiance is absolutely stunning! The mafia theme with city views creates such a unique dining experience. The pasta was authentic and the cocktails were perfect.",
+      "rating": 5
+    },
+    {
+      "name": "Rahul Mehta",
+      "text": "Best rooftop in Pune! Celebrated my anniversary here and the staff made it so special. The food quality and presentation exceeded our expectations.",
+      "rating": 5
+    },
+    {
+      "name": "Sneha Patel",
+      "text": "Loved the vibe and the panoramic city views. Great place for group celebrations - the service was excellent and the drinks were creative and delicious.",
+      "rating": 5
+    },
+    {
+      "name": "Arjun Desai",
+      "text": "The dark, cinematic décor creates such a cool atmosphere. Food was fantastic across all cuisines. Definitely our new favorite spot for weekend nights.",
+      "rating": 5
+    }
+  ],
+  "hours": {
+    "monday": "12:00 PM – 12:00 AM",
+    "tuesday": "12:00 PM – 12:00 AM",
+    "wednesday": "12:00 PM – 12:00 AM",
+    "thursday": "12:00 PM – 12:00 AM",
+    "friday": "12:00 PM – 1:00 AM",
+    "saturday": "12:00 PM – 1:00 AM",
+    "sunday": "12:00 PM – 12:00 AM"
+  },
+  "cta": {
+    "primary_text": "Reserve Your Table",
+    "primary_url": "#reservations",
+    "secondary_text": "View Menu",
+    "secondary_url": "#menu"
+  },
+  "seo": {
+    "title": "The Mafia Family Kitchen & Bar - Rooftop Dining Pune",
+    "description": "Experience Pune's premier rooftop restaurant on 10th floor with panoramic city views, Italian-Continental-Indian cuisine, signature cocktails & mafia-themed ambiance.",
+    "keywords": "rooftop restaurant Pune, mafia themed restaurant, Italian food Pune, cocktails Pune, rooftop dining Wadgaon Sheri, panoramic city views, date night Pune"
+  },
+  "nav_items": [
+    "Home",
+    "Menu",
+    "Bar",
+    "Gallery",
+    "Reservations",
+    "Contact"
+  ],
+  "features": [
+    {
+      "title": "Panoramic City Views",
+      "subtitle": "Dine 10 floors above Pune with breathtaking 360° city vistas",
+      "icon": "🌆"
+    },
+    {
+      "title": "Mafia-Themed Ambiance",
+      "subtitle": "Immersive dark décor with cinematic lighting and edgy atmosphere",
+      "icon": "🕴️"
+    },
+    {
+      "title": "Multi-Cuisine Excellence",
+      "subtitle": "Authentic Italian, Continental, and Indian dishes crafted to perfection",
+      "icon": "👨‍🍳"
+    }
+  ],
+  "amenities": [
+    {
+      "label": "Full Bar & Cocktails",
+      "icon": "🍹"
+    },
+    {
+      "label": "Rooftop Terrace",
+      "icon": "🏢"
+    },
+    {
+      "label": "Private Event Space",
+      "icon": "🎊"
+    },
+    {
+      "label": "Valet Parking",
+      "icon": "🚗"
+    },
+    {
+      "label": "Late Night Dining",
+      "icon": "🌙"
+    }
+  ],
+  "menu_categories": [
+    {
+      "name": "Starters",
+      "items": [
+        {
+          "name": "Mafia Style Bruschetta",
+          "description": "Grilled bread topped with fresh tomatoes, basil, and mozzarella",
+          "price": "₹320"
+        },
+        {
+          "name": "Don's Buffalo Wings",
+          "description": "Spicy chicken wings served with blue cheese dip and celery sticks",
+          "price": "₹420"
+        },
+        {
+          "name": "Godfather Nachos",
+          "description": "Loaded nachos with cheese, jalapeños, salsa, and sour cream",
+          "price": "₹380"
+        },
+        {
+          "name": "Italian Antipasto Platter",
+          "description": "Selection of cured meats, cheeses, olives, and marinated vegetables",
+          "price": "₹650"
+        }
+      ]
+    },
+    {
+      "name": "Mains (Italian)",
+      "items": [
+        {
+          "name": "Sicilian Spaghetti Aglio Olio",
+          "description": "Classic pasta with garlic, olive oil, chili flakes, and parmesan",
+          "price": "₹480"
+        },
+        {
+          "name": "Family's Secret Carbonara",
+          "description": "Creamy pasta with pancetta, egg yolk, and pecorino romano",
+          "price": "₹520"
+        },
+        {
+          "name": "Margherita Pizza Napoletana",
+          "description": "Authentic wood-fired pizza with San Marzano tomatoes and buffalo mozzarella",
+          "price": "₹450"
+        },
+        {
+          "name": "Osso Buco Milanese",
+          "description": "Slow-braised veal shanks with saffron risotto",
+          "price": "₹850"
+        }
+      ]
+    },
+    {
+      "name": "Mains (Indian)",
+      "items": [
+        {
+          "name": "Mumbai Underworld Biryani",
+          "description": "Fragrant basmati rice with tender mutton and aromatic spices",
+          "price": "₹620"
+        },
+        {
+          "name": "Butter Chicken Supremo",
+          "description": "Creamy tomato curry with tandoor chicken and basmati rice",
+          "price": "₹480"
+        },
+        {
+          "name": "Dal Makhani",
+          "description": "Rich black lentils slow-cooked with butter and cream",
+          "price": "₹320"
+        },
+        {
+          "name": "Paneer Lababdar",
+          "description": "Cottage cheese in rich tomato and onion gravy",
+          "price": "₹380"
+        }
+      ]
+    },
+    {
+      "name": "Mains (Continental)",
+      "items": [
+        {
+          "name": "Boss Man's Steak",
+          "description": "Grilled ribeye with mashed potatoes and seasonal vegetables",
+          "price": "₹890"
+        },
+        {
+          "name": "Rooftop Fish & Chips",
+          "description": "Beer-battered fish with crispy fries and tartar sauce",
+          "price": "₹520"
+        },
+        {
+          "name": "Grilled Chicken Supreme",
+          "description": "Herb-marinated chicken breast with roasted vegetables",
+          "price": "₹450"
+        },
+        {
+          "name": "Lamb Shank Provence",
+          "description": "Slow-roasted lamb with rosemary jus and garlic mash",
+          "price": "₹750"
+        }
+      ]
+    },
+    {
+      "name": "Desserts",
+      "items": [
+        {
+          "name": "Tiramisu della Casa",
+          "description": "Classic Italian dessert with ladyfingers, mascarpone, and coffee",
+          "price": "₹280"
+        },
+        {
+          "name": "Chocolate Lava Cake",
+          "description": "Warm chocolate cake with molten center and vanilla ice cream",
+          "price": "₹320"
+        },
+        {
+          "name": "Panna Cotta",
+          "description": "Silky vanilla custard with berry compote",
+          "price": "₹260"
+        }
+      ]
+    },
+    {
+      "name": "Signature Cocktails",
+      "items": [
+        {
+          "name": "The Godfather",
+          "description": "Whiskey, amaretto, and a touch of mystery",
+          "price": "₹450"
+        },
+        {
+          "name": "Don's Old Fashioned",
+          "description": "Premium bourbon with bitters and orange peel",
+          "price": "₹520"
+        },
+        {
+          "name": "Scarface Martini",
+          "description": "Vodka martini with olive tapenade and herb garnish",
+          "price": "₹480"
+        },
+        {
+          "name": "Family Secret Sangria",
+          "description": "Red wine with fresh fruits and secret spices",
+          "price": "₹380"
+        },
+        {
+          "name": "Rooftop Manhattan",
+          "description": "Rye whiskey, sweet vermouth, and maraschino cherry",
+          "price": "₹490"
+        }
+      ]
+    },
+    {
+      "name": "Mocktails & Beverages",
+      "items": [
+        {
+          "name": "Virgin Mojito Supreme",
+          "description": "Fresh mint, lime, and soda with a twist",
+          "price": "₹220"
+        },
+        {
+          "name": "Mafia Mule (Non-Alcoholic)",
+          "description": "Ginger beer, lime, and fresh herbs",
+          "price": "₹240"
+        },
+        {
+          "name": "Fresh Lime Soda",
+          "description": "Classic Indian refresher with mint",
+          "price": "₹150"
+        },
+        {
+          "name": "Italian Espresso",
+          "description": "Authentic espresso served the traditional way",
+          "price": "₹120"
+        },
+        {
+          "name": "Craft Beer Selection",
+          "description": "Local and imported craft beers",
+          "price": "₹280"
+        }
+      ]
+    }
+  ],
+  "booking": {
+    "enabled": true,
+    "title": "Reserve Your Table",
+    "subtitle": "Book your spot on the 10th floor",
+    "min_guests": 2,
+    "max_guests": 12,
+    "available_times": [
+      "6:00 PM",
+      "6:30 PM",
+      "7:00 PM",
+      "7:30 PM",
+      "8:00 PM",
+      "8:30 PM",
+      "9:00 PM",
+      "9:30 PM",
+      "10:00 PM"
+    ],
+    "phone_fallback": "Call us for reservations",
+    "email_fallback": "reservations@mafiafamilykitchen.com"
+  },
+  "gallery": [
+    {
+      "alt": "Panoramic Pune city view from 10th floor rooftop terrace at sunset",
+      "category": "rooftop-view"
+    },
+    {
+      "alt": "Dark mafia-themed interior with dim lighting and cinematic décor",
+      "category": "interior"
+    },
+    {
+      "alt": "Signature cocktails artfully presented with city lights backdrop",
+      "category": "drinks"
+    },
+    {
+      "alt": "Authentic Italian pasta dish beautifully plated with fresh herbs",
+      "category": "food"
+    },
+    {
+      "alt": "Rooftop dining area with panoramic city skyline at night",
+      "category": "rooftop-view"
+    },
+    {
+      "alt": "Elegant bar setup with premium spirits and mood lighting",
+      "category": "interior"
+    },
+    {
+      "alt": "Grilled steak with seasonal vegetables and wine pairing",
+      "category": "food"
+    },
+    {
+      "alt": "Craft cocktails with dramatic garnishes and atmospheric lighting",
+      "category": "drinks"
+    }
+  ],
+  "social": {
+    "instagram": "https://instagram.com/mafiafamilykitchen"
+  },
+  "deploy": {
+    "site": "https://tech-sumit.github.io",
+    "base": "/mafia-family-kitchen"
+  }
+}

@@ -1,0 +1,151 @@
+---
+import siteData from '../../content/site.json';
+---
+
+<section id="reservations" class="section-padding bg-gray-900">
+  <div class="container-wide">
+    <div class="max-w-4xl mx-auto">
+      <div class="text-center mb-12 animate-fade-in">
+        <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">
+          {siteData.booking.title}
+        </h2>
+        <p class="text-gray-300 text-xl">
+          {siteData.booking.subtitle}
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <!-- Booking Form -->
+        <div class="bg-black/50 p-8 rounded-lg border border-gray-800 animate-slide-up">
+          <form class="space-y-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div>
+                <label for="name" class="block text-white font-medium mb-2">Full Name</label>
+                <input 
+                  type="text" 
+                  id="name" 
+                  name="name" 
+                  required
+                  class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-md text-white focus:border-red-500 focus:outline-none"
+                />
+              </div>
+              <div>
+                <label for="phone" class="block text-white font-medium mb-2">Phone Number</label>
+                <input 
+                  type="tel" 
+                  id="phone" 
+                  name="phone" 
+                  required
+                  class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-md text-white focus:border-red-500 focus:outline-none"
+                />
+              </div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div>
+                <label for="date" class="block text-white font-medium mb-2">Date</label>
+                <input 
+                  type="date" 
+                  id="date" 
+                  name="date" 
+                  required
+                  class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-md text-white focus:border-red-500 focus:outline-none"
+                />
+              </div>
+              <div>
+                <label for="time" class="block text-white font-medium mb-2">Time</label>
+                <select 
+                  id="time" 
+                  name="time" 
+                  required
+                  class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-md text-white focus:border-red-500 focus:outline-none"
+                >
+                  <option value="">Select time</option>
+                  {siteData.booking.available_times.map((time) => (
+                    <option value={time}>{time}</option>
+                  ))}
+                </select>
+              </div>
+            </div>
+            
+            <div>
+              <label for="guests" class="block text-white font-medium mb-2">Number of Guests</label>
+              <select 
+                id="guests" 
+                name="guests" 
+                required
+                class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-md text-white focus:border-red-500 focus:outline-none"
+              >
+                <option value="">Select guests</option>
+                {Array.from({length: siteData.booking.max_guests - siteData.booking.min_guests + 1}, (_, i) => {
+                  const num = i + siteData.booking.min_guests;
+                  return <option value={num}>{num} {num === 1 ? 'Guest' : 'Guests'}</option>
+                })}
+              </select>
+            </div>
+            
+            <div>
+              <label for="message" class="block text-white font-medium mb-2">Special Requests (Optional)</label>
+              <textarea 
+                id="message" 
+                name="message" 
+                rows="3"
+                class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-md text-white focus:border-red-500 focus:outline-none resize-none"
+                placeholder="Birthday celebration, dietary restrictions, etc."
+              ></textarea>
+            </div>
+            
+            <button type="submit" class="w-full btn-primary text-lg py-4">
+              Make Reservation
+            </button>
+          </form>
+        </div>
+        
+        <!-- Contact Info -->
+        <div class="animate-slide-up" style="animation-delay: 0.2s">
+          <div class="bg-black/50 p-8 rounded-lg border border-gray-800 mb-8">
+            <h3 class="text-2xl font-bold text-white mb-6">Contact Information</h3>
+            
+            <div class="space-y-4">
+              <div class="flex items-start space-x-3">
+                <svg class="w-6 h-6 text-red-400 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                </svg>
+                <div>
+                  <p class="text-white font-medium">Address</p>
+                  <p class="text-gray-300 leading-relaxed">{siteData.address}</p>
+                </div>
+              </div>
+              
+              <div class="flex items-center space-x-3">
+                <svg class="w-6 h-6 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                </svg>
+                <div>
+                  <p class="text-white font-medium">Email</p>
+                  <a href={`mailto:${siteData.email}`} class="text-red-400 hover:text-red-300 transition-colors">
+                    {siteData.email}
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Hours -->
+          <div class="bg-black/50 p-8 rounded-lg border border-gray-800">
+            <h3 class="text-2xl font-bold text-white mb-6">Opening Hours</h3>
+            <div class="space-y-2">
+              {Object.entries(siteData.hours).map(([day, hours]) => (
+                <div class="flex justify-between">
+                  <span class="text-gray-300 capitalize">{day}</span>
+                  <span class="text-white">{hours}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

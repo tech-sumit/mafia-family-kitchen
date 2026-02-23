@@ -1,0 +1,42 @@
+---
+import siteData from '../../content/site.json';
+---
+
+<section id="home" class="relative h-screen flex items-center justify-center overflow-hidden">
+  <!-- Background Image with Overlay -->
+  <div class="absolute inset-0 z-0">
+    <div class="absolute inset-0 bg-gradient-to-r from-black/70 to-black/50 z-10"></div>
+    <img 
+      src="https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?w=1920&h=1080&fit=crop&crop=center&auto=format&q=80" 
+      alt="Rooftop restaurant with city views at night"
+      class="w-full h-full object-cover"
+    />
+  </div>
+  
+  <!-- Content -->
+  <div class="relative z-20 text-center text-white px-4 animate-fade-in">
+    <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
+      <span class="block">{siteData.business_name}</span>
+    </h1>
+    
+    <p class="text-xl md:text-2xl lg:text-3xl mb-8 font-light text-gray-200 max-w-4xl mx-auto">
+      {siteData.headline}
+    </p>
+    
+    <div class="flex flex-col sm:flex-row gap-4 justify-center items-center animate-slide-up">
+      <a href={siteData.cta.primary_url} class="btn-primary text-lg px-8 py-4">
+        {siteData.cta.primary_text}
+      </a>
+      <a href={siteData.cta.secondary_url} class="btn-secondary text-lg px-8 py-4">
+        {siteData.cta.secondary_text}
+      </a>
+    </div>
+    
+    <!-- Scroll indicator -->
+    <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+      <svg class="w-6 h-6 text-white/60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+      </svg>
+    </div>
+  </div>
+</section>

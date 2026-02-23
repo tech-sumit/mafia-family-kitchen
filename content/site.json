@@ -5,7 +5,7 @@
     "Dine with the City at Your Feet",
     "Where Culinary Excellence Meets Panoramic Views"
   ],
-  "phone": "",
+  "phone": "095276 59115",
   "email": "reservations@mafiafamilykitchen.com",
   "address": "Vedriti 10th Floor, Pune Nagar Rd, near D'Mello Petrol Pump, opp. Tata Guardroom BRT Stop, Sai Nagari, Mathura Nagar, Wadgaon Sheri, Pune, Maharashtra 411014",
   "google_maps_url": "https://www.google.com/maps/place/The+Mafia+Family+Kitchen+%26+Bar/",
@@ -98,13 +98,13 @@
     }
   ],
   "hours": {
-    "monday": "12:00 PM – 12:00 AM",
-    "tuesday": "12:00 PM – 12:00 AM",
-    "wednesday": "12:00 PM – 12:00 AM",
-    "thursday": "12:00 PM – 12:00 AM",
-    "friday": "12:00 PM – 1:00 AM",
-    "saturday": "12:00 PM – 1:00 AM",
-    "sunday": "12:00 PM – 12:00 AM"
+    "monday": "12:30 PM – 1:30 AM",
+    "tuesday": "12:30 PM – 1:30 AM",
+    "wednesday": "12:30 PM – 1:30 AM",
+    "thursday": "12:30 PM – 1:30 AM",
+    "friday": "12:30 PM – 1:30 AM",
+    "saturday": "12:30 PM – 1:30 AM",
+    "sunday": "12:30 PM – 1:30 AM"
   },
   "cta": {
     "primary_text": "Reserve Your Table",
@@ -368,36 +368,59 @@
   },
   "gallery": [
     {
-      "alt": "Panoramic Pune city view from 10th floor rooftop terrace at sunset",
-      "category": "rooftop-view"
+      "alt": "The Mafia Family Kitchen & Bar — rooftop ambiance",
+      "category": "interior",
+      "image": "/mafia-family-kitchen/images/all.jpg"
     },
     {
-      "alt": "Dark mafia-themed interior with dim lighting and cinematic décor",
-      "category": "interior"
+      "alt": "Vibrant bar atmosphere with dim lighting",
+      "category": "interior",
+      "image": "/mafia-family-kitchen/images/vibe.jpg"
     },
     {
-      "alt": "Signature cocktails artfully presented with city lights backdrop",
-      "category": "drinks"
+      "alt": "By the owner — rooftop lounge area",
+      "category": "rooftop-view",
+      "image": "/mafia-family-kitchen/images/by-owner.jpg"
     },
     {
-      "alt": "Authentic Italian pasta dish beautifully plated with fresh herbs",
-      "category": "food"
+      "alt": "Signature cocktail presentation",
+      "category": "drinks",
+      "image": "/mafia-family-kitchen/images/cocktail.jpg"
     },
     {
-      "alt": "Rooftop dining area with panoramic city skyline at night",
-      "category": "rooftop-view"
+      "alt": "Blue Lagoon cocktail",
+      "category": "drinks",
+      "image": "/mafia-family-kitchen/images/blue-lagoon.jpg"
     },
     {
-      "alt": "Elegant bar setup with premium spirits and mood lighting",
-      "category": "interior"
+      "alt": "Refreshing mojito",
+      "category": "drinks",
+      "image": "/mafia-family-kitchen/images/mojito.jpg"
     },
     {
-      "alt": "Grilled steak with seasonal vegetables and wine pairing",
-      "category": "food"
+      "alt": "Crispy mozzarella sticks",
+      "category": "food",
+      "image": "/mafia-family-kitchen/images/mozzarella-sticks.jpg"
     },
     {
-      "alt": "Craft cocktails with dramatic garnishes and atmospheric lighting",
-      "category": "drinks"
+      "alt": "Classic cannoli dessert",
+      "category": "food",
+      "image": "/mafia-family-kitchen/images/cannoli.jpg"
+    },
+    {
+      "alt": "Freshly baked naan bread",
+      "category": "food",
+      "image": "/mafia-family-kitchen/images/naan.jpg"
+    },
+    {
+      "alt": "Chocolate brownie dessert",
+      "category": "food",
+      "image": "/mafia-family-kitchen/images/chocolate-brownie.jpg"
+    },
+    {
+      "alt": "Food and drink spread",
+      "category": "food",
+      "image": "/mafia-family-kitchen/images/food-drink.jpg"
     }
   ],
   "social": {
